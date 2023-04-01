@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>DiscordClone</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+     <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#404EED',
+              }
+            }
+          }
+        }
+      </script>
+
+<style type="text/tailwindcss">
+
+
+    .shadow::before{
+        content: "";
+        font-size: large;
+    }
+    
+    .shadow:hover{
+        box-shadow: 1px 10px 15px 10px rgb(238, 230, 230);
+
+    }
+
+    .shadow-text:hover{
+        text-shadow: 12px 12px 25px rgb(255, 255, 255);
+    }
+
+
+</style>
+<!-- bg-[#404EED] -->
+</head>
+<body>
+
+    <div class="bg-clifford w-full font-[ggSans] ">
+        
+    <nav class="max-w-[1200px] px-[2rem] xl:px-[1rem] mx-auto flex justify-between items-center py-5">
+        <div class="">
+            <img src="./images/logo.svg" alt="">
+        </div>
+
+        <div class="space-x-6 hidden xl:block md:block media text-white font-[16px] ">
+
+                
+                    <a href="" class="capitalize font-[5rem] hover:underline "> Download</a>
+              
+                    <a href="" class="capitalize hover:underline">  Nitro</a>
+                
+                    <a href="" class="capitalize hover:underline">  Discover</a>
+                
+                    <a href="" class="capitalize hover:underline">  Safety</a>
+                
+                    <a href="" class="capitalize hover:underline">Support</a>
+                
+                    <a href="" class="capitalize hover:underline"> Blog</a>
+            
+                    <a href="" class="capitalize hover:underline"> Career</a>
+             
+        </div>
+
+        <div class="flex flex-row gap-5 items-center">
+            <button class="bg-white px-[0.3rem] py-2 rounded-[30px] w-[6.5rem] flex justify-center items-center transition-all duration-200 ease-linear hover:ease-in  drop-shadow-md hover:drop-shadow-2xl ">
+                <a href="" class="text-sm font-normal hover:text-blue-800 transition-all duration-200 ease-linear hover:ease-in  ">Open Discord</a>
+            </button>
+            <div class="md:hidden xl:hidden flex flex-col gap-1 hover:cursor-pointer">
+                <div class="w-[1.7rem] h-[0.3rem] bg-white"></div>
+                <div class="w-[1.7rem] h-[0.3rem] bg-white"></div>
+                <div class="w-[1.7rem] h-[0.3rem] bg-white"></div>
+            </div>
+        </div>
+
+
+      
+    </nav>
+
+    </div>
+
+    <!-- hero section -->
+
+    <div class="relative bg-[#404EED] w-full -mt-1 font-[ggSans] flex flex-col gap-[16rem] xl:gap-0 md:gap-0 ">
+
+        <img src="./images/Image0.svg" class="absolute bottom-0 top-auto hidden xl:block scale-x-150 z-10 " alt=""/>
+        <img src="./images/Image1.svg"  class="absolute bottom-0 -right-[16rem] hidden xl:block z-10" alt="">
+        <img src="./images/Image2.svg" class="absolute -left-[16rem] bottom-0 z-10 hidden xl:block " alt="">
+
+        <div class="flex flex-col px-[2rem] xl:px-[1rem] items-start xl:items-center  max-w-[800px] xl:mx-auto z-20 py-[3rem] md:py-[6rem] xl:py-[8rem]">
+            <h1 class="text-white uppercase text-[2rem] md:text-[3rem] xl:text-[4rem] font-semibold font-[GintoNord] pb-[1.5rem]  z-20">imagine a place...</h1>
+            <p class="xl:text-center text-white opacity-100 text-[1rem]  xl:text-[1.2rem]  z-20 font-[ggSans] ">...Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, ab. Vitae sed, quasi, magnam tenetur distinctio odit aperiam autem tempore hic minima officiis eius! Itaque at, perspiciatis, necessitatibus voluptas quaerat nostrum minima dolore dolores </p>
+
+            
+            <div class=" mt-[2rem] flex flex-col space-y-5 xl:space-y-0 justify-start xl:flex-row xl:space-x-8 text-[1.2rem] font-[ggSans] z-20">
+
+                <button class="bg-white py-2 px-3 w-[17rem] border-none rounded-[5rem] text-lg hover:drop-shadow-xl transition-all duration-150 
+                 z-20 group">
+                    <a href="" class="flex justify-center items-center gap-1 group-hover:text-[#6658e4] transition-all duration-150 ">
+                        <img src="./images/download-svgrepo-com.svg" width="25px" height="25px" class="pr-1 group-hover:text-[#6658e4]" alt="" >
+                        <p>Download for Windows</p>
+                    </a>
+
+                </button>
+                <button class="bg-gray-800 text-white py-3 px-3 w-[18rem] border-none rounded-[5rem] text-lg font-normal  hover:drop-shadow-xl transition-all duration-150  z-20">
+                    <a href="" class="group-hover:text-[#6658e4] transition-all duration-150 ">
+                        <p>Open discord in your browser</p>
+                    </a>
+                </button>
+            </div>
+            <img src="./images/Image1.svg"  class="absolute bottom-0 -right-[16rem] hidden md:block xl:block z-10" alt="">
+           
+            
+        </div>
+
+        <div class="">
+            <img src="./images/Image2.svg" class="absolute  bottom-0 z-10  md:hidden xl:hidden" alt="">
+        </div>
+         
+
+
+
+    </div>
+
+
+    <!-- section-1 -->
+
+    <div class="max-w-full">
+        <div class="max-w-[1200px] mx-auto  flex flex-col md:flex-row xl:flex-row xl:gap-6 justify-center items-center py-[5rem] ">
+            <!-- left -->
+            <div>
+                <img src="./images/section1Image.svg" height="1550px" width="1500px" class="mt-[3rem]" alt="">
+            </div>
+
+            <!-- -right -->
+            <div class=" flex flex-col gap-3
+             xl:gap-7 md:w-[80%] mx-[1rem] xl:w-[60%]  xl:ml-[4rem]">
+                <h1 class=" text-[1.2rem] md:text-[3rem] xl:text-[3rem]  font-['ggSans'] font-extrabold text-gray-800 leading-[1.8rem] md:leading-[3rem] xl:leading-[3rem]">Create an invite-only place where you belong</h1>
+                <p class=" text-[1rem] md:text-[1.2rem] xl:text-[1.2rem]  font-['ggSans']">Discord servers are organized into topic-based channels where you can collaborate, share, and just talk about your day without clogging up a group chat.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- section-2 -->
+
+    
+    <div class="max-w-full bg-[#ededed]">
+        <div class="max-w-[1200px] mx-auto flex flex-col-reverse md:flex-row xl:flex-row gap-6 justify-center items-center py-[5rem] ">
+            <!-- left -->
+
+            
+            
+            <div class=" flex flex-col
+             xl:gap-7 px-[1rem] xl:w-[60%] xl:ml-[5rem]">
+                <h1 class=" text-[1.2rem] md:text-[3rem] xl:text-[3rem]  font-['ggSans'] font-extrabold text-gray-800 leading-[2.8rem]">Where hanging out is easy</h1>
+                <p class=" text-[1rem] md:text-[1.2rem] xl:text-[1.2rem]  font-['ggSans']">Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around and instantly pop in to talk without having to call.</p>
+            </div>
+
+
+
+            <!-- -right -->
+            <div>
+                <img src="./images/section2Image.svg" height="1550px" width="1500px" class="mt-[3rem]" alt="">
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- section-3 -->
+
+    
+    <div class="max-w-full">
+        <div class="max-w-[1200px] mx-auto flex flex-col md:flex-row xl:flex-row gap-6 justify-center items-center py-[5rem] ">
+            <!-- left -->
+            <div>
+                <img src="./images/section3Image.svg" height="1550px" width="1500px" class="mt-[3rem]" alt="">
+            </div>
+
+            <!-- -right -->
+            <div class=" flex flex-col
+             xl:gap-7 xl:w-[60%] px-[1rem] xl:ml-[4rem]">
+                <h1 class=" text-[1.2rem] md:text-[3rem] xl:text-[3rem]  font-['ggSans'] font-extrabold text-gray-800 leading-[3rem]">From few to a fandom</h1>
+                <p class=" text-[1rem] md:text-[1.2rem] xl:text-[1.2rem]  font-['ggSans']">Get any community running with moderation tools and custom member access. Give members special powers, set up private channels, and more.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- section-4 -->
+
+    <div>
+        <div class="flex flex-col max-w-[1200px] mx-auto justify-center items-center py-[5rem]">
+            <div class="flex flex-col gap-2 items-center mx-[1rem] max-w-[950px]">
+                <h1 class=" text-[1.5rem] md:text-[2.2rem] xl:text-[3rem] font-['GintoNord'] text-gray-800">Reliable tech for staying close</h1>
+                <p class=" xl:text-center text-[0.8rem] md:text-[1.1rem] xl:text-[1.1rem]">Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.</p>
+            </div>
+            <div>
+                <img src="./images/section4Image.svg" alt="" width="1500px">
+            </div>
+            <div class="flex flex-col items-center gap-4">
+                <p class=" text-[1.5rem] text-center md:text-[2rem] xl:text-[2rem] font-bold text-black">Ready to start your journey?</p>
+                <button class="bg-[#684cf7] w-[17rem]  text-white rounded-3xl shadow transition-all  duration-150 ">
+                    <a href="" class="shadow-text flex flex-row gap-3 py-[0.8rem] justify-center items-center transition-all  duration-150">
+                        
+                        <img src="./images/download-svgrepo-com(1).svg" height="25px" width="25px" alt="" >
+                         <p >Downloads for Windows</p>
+                    </a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <div class="bg-[#1f262a]">
+        <div class="max-w-[1200px] mx-auto text-white py-[5rem] ">
+
+            <div class="flex md:flex-row xl:flex-row  flex-col mx-[1rem] space-y-16 md:space-y-0 justify-between">
+                <div class="flex flex-col gap-5 max-w-[50%]">
+                    <h1 class="text-[2.5rem] leading-10 font-bold font-['GintoNord'] text-[#4949cb]">Imagine a place</h1>
+                    <p class="flex"><img src="./images/flag-for-flag-australia-svgrepo-com.svg" width="25px" height="25px" class="mr-4" alt="">English USA</p>
+                    <div class="flex flex-row gap-3 items-center">
+                        <span>
+                            <img src="./images/instagram-svgrepo-com.svg" width="35px" height="35px" alt="">
+                        </span>
+                        <span>
+                            <img src="./images/social-facebook-svgrepo-com.svg" width="30px" height="30px" alt="">
+                        </span>
+                        <span>
+                            <img src="./images/twitter-boxed-svgrepo-com.svg" width="25px" height="25px" alt="">
+                        </span>
+                        <span>
+                            <img src="./images/youtube-play-svgrepo-com.svg" width="35px" height="35px" alt="">
+                        </span>
+                    </div>
+    
+                </div>
+    
+    
+                <div class=" grid grid-cols-2 xl:grid-cols-4 gap-6 md:gap-[6rem] xl:gap-[8rem] md:pr-[5rem] xl:pr-[5rem]">
+                    <div class="flex flex-col gap-2">
+                        <p class="text-[#5656e1]">Product</p>
+                        <a class="hover:underline" href="">Download</a>
+                        <a href=""  class="hover:underline">Nitro</a>
+                        <a href=""  class="hover:underline">Status</a>
+                    </div>
+    
+    
+                    <div class="flex flex-col gap-2" >
+                        <p class="text-[#5656e1]">Company</p>
+                        <a href=""  class="hover:underline">About</a>
+                        <a href=""  class="hover:underline">Jobs</a>
+                        <a href=""  class="hover:underline">Branding</a>
+                        <a href=""  class="hover:underline"> Newspaper</a>
+              
+                    </div>
+    
+    
+                    <div class="flex flex-col gap-2">
+                        <p class="text-[#5656e1]">Resources</p>
+                        <a href=""  class="hover:underline">College</a>
+                        <a href=""  class="hover:underline">Support</a>
+                        <a href=""  class="hover:underline">Safety</a>
+                        <a href=""  class="hover:underline">Blog</a>
+                        <a href="" class="hover:underline">Feedback</a>
+                        <a href="" class="hover:underline">Build</a>
+                        <a href="" class="hover:underline">Streamkit</a>
+                        <a href="" class="hover:underline">Creators</a>
+                        <a href="" class="hover:underline">Community</a>
+                    </div>
+    
+                    <div class="flex flex-col gap-2">
+                        <p class="text-[#5656e1]">Resources</p>
+                        <a href="" class="hover:underline">College</a>
+                        <a href="" class="hover:underline">Support</a>
+                        <a href="" class="hover:underline">Safety</a>
+                        <a href="" class="hover:underline">Blog</a>
+                        <a href="" class="hover:underline">Feedback</a>
+                        <a href="" class="hover:underline">Build</a>
+                        <a href="" class="hover:underline">Streamkit</a>
+                        <a href="" class="hover:underline">Creators</a>
+                        <a href="" class="hover:underline">Community</a>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+
+            
+
+        <hr class="bg-[#11f] text-[#11f] max-w-[1200px] mx-[1rem] text-center items-center xl:mx-auto ">
+
+        <div class="max-w-[1200px] mx-auto py-[1.5rem] ">
+
+            <div class="flex flex-row justify-between mx-[1rem]">
+                <div><img src="./images/logo.svg" alt=""></div>
+                <div>
+                    <button class="bg-[#6363f2] hover:bg-[#9393f6] transition-all duration-200 text-white w-[5rem] py-2 text-sm rounded-3xl">Sign up</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+   
+
+</body>
+</html>
